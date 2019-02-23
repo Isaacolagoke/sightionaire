@@ -3,12 +3,20 @@
         <nav id="mynav">
             <div class="container">
                 <router-link :to="{ name: 'Index' }" class="brand-logo left">Sightionaire</router-link>
-                <ul class="right">  
+                <input type="checkbox" id="chk">
+                <label for="chk" class="show-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <ul class="right menu">  
 		                  <li v-if="!user"><router-link :to="{ name: 'Login' }"> Log in </router-link></li>
 
                       <li  v-if="!user"><router-link :to="{ name: 'Signup' }"> Sign up </router-link></li>
                       <li class="nav-email" v-if="user"><a> {{ user.email }} </a></li>
                       <li  v-if="user"><a @click="logout">Logout</a></li>
+                      <label for="chk" class="hide-menu-btn">
+                  <i class="fas fa-times"></i>
+                      </label>
                 </ul>
             </div>
         </nav>
@@ -54,24 +62,20 @@ export default {
 .scroll { background-color:#ab47bc; }
 
 
-nav .nav-content{
-  
-}
 nav {
-     background: transparent;
+     background: rgba(0, 0, 0, 0.2);
      box-shadow: none;
 
 }
-
+.right{
+  float: left;
+}
 .p-width{
   width: 90%;
   margin: auto;
   overflow: hidden;
 }
 
-.fz{
-  font-size: 25px;
-}
 .brand-logo{
   text-transform: uppercase;
   line-height: 1;
@@ -83,15 +87,67 @@ nav {
   
 }
 
-@media (max-width: 700px) { 
-    .brand-logo{
-      font-size: 15px;
+.show-menu-btn, .hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+.show-menu-btn{
+   float: right;
+}
+.show-menu-btn:hover, .hide-menu-btn:hover {
+    color: #ab47bc;
+}
+
+.show-menu-btn i{
+   line-height: 50px;
+}
+#chk{
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+@media screen and (max-width:800px) {
+    .show-menu-btn, .hide-menu-btn{
+        display: block;
     }
 
-    .right{
-      display: block;
-
+    .menu{
+        position: fixed;
+        width:100%;
+        height: 900px;
+        background: #333;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 80px 0;
+        line-height: normal;
+        transition: 0.7s;
     }
 
+    .menu li a{
+        display: block;
+        padding: 20px;
+    }
+    nav ul li{
+      float: none;
+    }
+
+    .hide-menu-btn{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    nav ul li:hover{
+       background:  #ab47bc;
+       font-size: 25px;
+    }
+    #chk:checked ~ .menu{
+        right: 0;
+      }
 }
 </style>

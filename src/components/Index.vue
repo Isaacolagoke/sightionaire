@@ -8,7 +8,7 @@
             </h1>
             <p class="fz2 center">Get an insight into your next meetup with just a click.</p>
                 <div class="center">
-                    <a href="#about" class="intro-btn">Get Started</a>
+                    <a href="#call-to-action" class="intro-btn">Get Started</a>
                 </div>
          </div>
        </div>
@@ -168,13 +168,15 @@
     </div>
 
     <!-- call to action -->
-    <div class="call-to-action">
+    <div id="call-to-action">
+      <div class="call-to-action">
         <div class="row container3 center">
         <div class="col s12">
           <h1  class="section-title2"> Get the Insight Now!!</h1>
             <a class="intro-btn2">Sign up</a>
         </div>
       </div>
+    </div>
     </div>
   
   <!-- trusted partners -->
@@ -323,8 +325,8 @@ export default {
 @media only screen and (max-width: 600px) {
 
   .fz1{
-    font-size: 70px;
-    padding-top: 130px;
+    font-size: 50px;
+    padding-top: 100px;
   }
   
   .fz2{
@@ -334,8 +336,8 @@ export default {
   }
 
   .intro-btn{
-    font-size: 35px;
-    margin: 40px auto;
+    font-size: 25px;
+    margin: 35px auto;
   }
 
   #about .col.s4{
