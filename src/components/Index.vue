@@ -29,53 +29,50 @@
         </div> -->
      </div>
 
-     <div class="about center container row">
-       <div class="">
-         <h2 class="section-title">About Sightionaire</h2>
-         <span class="divider"></span>
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aliquam atque dolor, ea assumenda deleniti quo officiis beatae repellendus dignissimos eos minus reprehenderit dicta praesentium cumque, nesciunt explicabo, distinctio repudiandae.
+     <div class="about">
+       <div class="about-div">
+         <h2 class="section-title2">About Sightionaire</h2>
+        <p class="section-title3">
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem aliquam atque dolor, ea assumenda deleniti quo officiis beatae repellendus dignissimos eos minus reprehenderit dicta praesentium cumque, nesciunt explicabo, distinctio repudiandae.
+        </p>
        </div>
       </div>
 
     <!-- Product features -->
 
-    <div class="row mt mb container2">
+    <div class="mt mb container2">
       <div id="about">
-           <div class="col s4">
-          <img src="../assets/p4.png" alt="">
-        </div>
-        <div class="col s8">
           <div class="center">
             <h2 class="section-title">Get your engagement handy</h2>
             <span class="divider"></span>
           </div>
 
             <div class="row">
-                <div class="p-content col s5 center">
-                  <i class="large material-icons colour-1">add_circle_outline</i>
+                <div class="p-content col s3 center">
+                  <i class="medium material-icons colour-1">add_circle_outline</i>
                   <h1 class="content-title">Create Meetups</h1>
                   <p class="content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.</p>
                 </div>
 
-                <div class="p-content col s5 center">
-                  <i class="large material-icons colour-1">group</i>
+                <div class="p-content col s3 center">
+                  <i class="medium material-icons colour-1">group</i>
                   <h1 class="content-title">Get Insight</h1>
                   <p class="content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.</p>
                 </div>
 
-                 <div class="p-content col s5 center">
-                  <i class="large material-icons colour-1">notifications_active</i>
+                 <div class="p-content col s3 center">
+                  <i class="medium material-icons colour-1">notifications_active</i>
                   <h1 class="content-title">Ask Burning Questions</h1>
                   <p class="content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.</p>
                 </div>
 
-                <div class="p-content col s5 center">
-                  <i class="large material-icons colour-1">all_inclusive</i>
+                <div class="p-content col s3 center">
+                  <i class="medium material-icons colour-1">all_inclusive</i>
                   <h1 class="content-title">Interact</h1>
                   <p class="content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sint.</p>
                 </div>
             </div>
-        </div>
+        
       </div>
     </div>
 
@@ -87,13 +84,6 @@
           <h1 class="section-title center">Organise your meetups just the way you want</h1>
                 <span class="divider"></span>
                 <div class="row">
-                  <div class="col s2">
-                      <i class="medium material-icons colour-1 pt">group</i>  
-                  </div>
-                  <div class="col s10">
-                        <p  class="content-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae neque molestias asperiores possimus, iusto, illo dolorem veniam harum facilis corrupti similique animi ipsa quia fugiat assumenda nihil doloremque vel consectetur alias minus rerum quo! Unde at, ducimus deleniti itaque fuga nobis labore libero iste soluta reiciendis iusto, vero totam! Id consequuntur architecto optio, distinctio unde voluptate doloremque debitis in quas!</p>
-                  </div>
-
                   <div class="col s2">
                       <i class="medium material-icons colour-1 pt">group</i>  
                   </div>
@@ -127,13 +117,6 @@
                         <p  class="content-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae neque molestias asperiores possimus, iusto, illo dolorem veniam harum facilis corrupti similique animi ipsa quia fugiat assumenda nihil doloremque vel consectetur alias minus rerum quo! Unde at, ducimus deleniti itaque fuga nobis labore libero iste soluta reiciendis iusto, vero totam! Id consequuntur architecto optio, distinctio unde voluptate doloremque debitis in quas!</p>
                   </div>
 
-                  <div class="col s2">
-                      <i class="medium material-icons colour-1 pt">group</i>  
-                  </div>
-                  <div class="col s10">
-                        <p  class="content-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae neque molestias asperiores possimus, iusto, illo dolorem veniam harum facilis corrupti similique animi ipsa quia fugiat assumenda nihil doloremque vel consectetur alias minus rerum quo! Unde at, ducimus deleniti itaque fuga nobis labore libero iste soluta reiciendis iusto, vero totam! Id consequuntur architecto optio, distinctio unde voluptate doloremque debitis in quas!</p>
-                  </div>
-
           </div>
         </div>
       </div>
@@ -151,12 +134,6 @@
                         <p  class="content-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae neque molestias asperiores possimus, iusto, illo dolorem veniam harum facilis corrupti similique animi ipsa quia fugiat assumenda nihil doloremque vel consectetur alias minus rerum quo! Unde at, ducimus deleniti itaque fuga nobis labore libero iste soluta reiciendis iusto, vero totam! Id consequuntur architecto optio, distinctio unde voluptate doloremque debitis in quas!</p>
                   </div>
 
-                  <div class="col s2">
-                      <i class="medium material-icons colour-1 pt">group</i>  
-                  </div>
-                  <div class="col s10">
-                        <p  class="content-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae neque molestias asperiores possimus, iusto, illo dolorem veniam harum facilis corrupti similique animi ipsa quia fugiat assumenda nihil doloremque vel consectetur alias minus rerum quo! Unde at, ducimus deleniti itaque fuga nobis labore libero iste soluta reiciendis iusto, vero totam! Id consequuntur architecto optio, distinctio unde voluptate doloremque debitis in quas!</p>
-                  </div>
 
           </div>
         </div>
@@ -171,10 +148,9 @@
     <div id="call-to-action">
       <div class="call-to-action">
         <div class="row container3 center">
-        <div class="col s12">
-          <h1  class="section-title2"> Get the Insight Now!!</h1>
-            <a class="intro-btn2">Sign up</a>
-        </div>
+      
+          <h1  class="section-title"> Get the Insight Now!!</h1>
+            <router-link class="intro-btn2" :to="{ name: 'Signup' }">Sign up</router-link>
       </div>
     </div>
     </div>
@@ -256,7 +232,7 @@ export default {
       border-bottom: 5px solid  #ab47bc;
 }
  .container2{
-     width: 90%;
+     width: 80%;
      box-sizing: border-box;
      overflow: hidden;
      margin: auto;
@@ -270,13 +246,13 @@ export default {
 }
 
 .fz1{
-  font-size: 90px;
+  font-size: 60px;
   color: #fff;
   padding-top: 230px;
   font-family: 'Montserrat', sans-serif;
 }
 .fz2{
-  font-size: 30px;
+  font-size: 20px;
    color: #fff;
    font-family: 'Montserrat', sans-serif;
 }
@@ -301,8 +277,8 @@ export default {
   margin-top: 50px;
 }
 .intro-btn{
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: bold;
+  font-size: 23px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
@@ -312,8 +288,6 @@ export default {
   border: 2px solid #ab47bc;
   color: #fff;
   background: transparent;
-  font-size: 45px;
-  font-weight: bold; 
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -376,7 +350,17 @@ export default {
     margin: auto;
     width: 100%;
   }
+  .p-content{
+    display: block
+  }
 } 
+
+@media only screen and (max-width: 400px) {
+  .row .col.s3 {
+    display: block;
+    width: 100%;
+}
+}
 
 .intro-btn2{
   font-weight: 400;
@@ -388,7 +372,7 @@ export default {
   border: 2px solid #fff;
   color: #fff;
   background: transparent;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold; 
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 25px;
@@ -438,10 +422,13 @@ export default {
   top: 150px;
 }
 .about{
-  position: relative;
-  margin-top: -70px;
+  margin-top: -140px;
 }
-
+.about-div{
+  background: #ab47bc;
+  padding: 10px;
+  color: #fff;
+}
 .divider{
   display: block;
   width: 100px;
@@ -451,43 +438,50 @@ export default {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-
-.section-title{
-  font-size: 32px;
-  color: #111;
-  text-align: center;
-  font-weight: 400;
-}
+/* .divider2{
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #fff;
+  margin: 0 auto;
+} */
 .section-title2{
-  font-size: 35px;
-  color: #fff;
+  font-size: 23px;
+  font-weight: 300;
+}
+.section-title3{
+  font-size: 15px;
+}
+.section-title{
+  font-size: 29px;
+  color: #111;
   text-align: center;
   font-weight: 400;
   padding: 0;
   margin-bottom: 0px 0px 20px 0;
 }
 
-
+.about-img{
+  height: 100px;
+}
 .content-title{
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 15px;
-  font-size: 30px;
+  font-size: 20px;
   margin: 0;
 }
 .content-description{
-  font-size: 17px;
+  font-size: 13px;
   line-height: 24px;
   margin-bottom: 10px;
 }
 .content-description2{
-  font-size: 20px;
+  font-size: 15px;
   line-height: 24px;
   padding-bottom: 20px;
 }
 
-.p-content{
-  margin: 10px;
-}
+
 
 .img-container{
   width: 100%;

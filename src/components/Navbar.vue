@@ -84,12 +84,12 @@ nav {
   letter-spacing: 3px;
    margin: 20px 0 0 0;
   padding: 0;
-  
+  font-size: 1.6rem !important;
 }
 
 .show-menu-btn, .hide-menu-btn{
     transition: 0.4s;
-    font-size: 30px;
+    font-size: 20px;
     display: none;
     cursor: pointer;
     color: #fff;
@@ -144,7 +144,7 @@ nav {
 
     nav ul li:hover{
        background:  #ab47bc;
-       font-size: 25px;
+       font-size: 20px;
     }
     #chk:checked ~ .menu{
         right: 0;

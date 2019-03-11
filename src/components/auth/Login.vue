@@ -65,7 +65,7 @@ label{
 }
 .intro-btn{
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
@@ -78,7 +78,9 @@ label{
   font-weight: bold; 
   font-family: 'Montserrat', sans-serif;
 }
-
+h2{
+  font-size: 2.8rem !important;
+}
 .intro-btn:hover {
   color: #fff;
   background: #ab47bc;

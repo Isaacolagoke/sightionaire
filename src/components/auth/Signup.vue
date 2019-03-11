@@ -97,7 +97,7 @@ label{
 }
 .intro-btn{
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
